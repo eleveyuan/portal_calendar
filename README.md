@@ -9,7 +9,7 @@ zh | [en原项目readme](https://github.com/eleveyuan/portal_calendar/blob/maste
 下面都是在国内找到下载链接，
 - **Waveshare 7.5" 800x480 E-Ink display**
 
-Waveshare电子墨水瓶，可以在taobao搜索：微雪旗舰店（或点击这个[链接](https://detail.tmall.com/item.htm?id=633262461077)，个人选择的红黑白版本的显示器，想显示黄历
+Waveshare电子墨水瓶，可以在taobao搜索：微雪旗舰店（或点击这个[链接](https://detail.tmall.com/item.htm?id=633262461077 = 100)，个人选择的红黑白版本的显示器，想显示黄历）
 
 ![](./images/display-zh.jpg)
 
