@@ -1,5 +1,7 @@
 # Portal Calendar
 
+[zh]() | en
+
 An ESP32 based, Portal themed e-ink calendar that can run on AAA batteries for years, with optional weather integration through OpenWeatherMap.
 
 - [Bill of Materials](#bill-of-materials)
