@@ -5,3 +5,5 @@ resources/font/*.ttf
 resources/font/*.otf
 private
 .pio/
+
+.DS_Store
