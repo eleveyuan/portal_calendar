@@ -10,9 +10,18 @@ const uint8_t ACTION_TZ_SYNC = 0b010;
 const uint8_t ACTION_WEATHER_SYNC = 0b100;
 
 /**
+ * 
+ * ESP32在工作时功耗蛮大的，所以我们可以在不需要时进行休眠，这也是蛮常用的功能。
+ * 
+ * ESP32在进入DeepSleep时内存中所有的数据将无法保持，如果我们需要将某些数据进行存储的话使用RTC Memory是不错的选择。
+ * ESP32有快速和慢速两片RTC内存区域，各8K大小。对于我们用户应用来说用来存储数据主要用到慢速的RTC内存。
+ * 使用RTC_DATA_ATTR标记的数据将被放置在RTC内存中，比如RTC_DATA_ATTR int data = 0;，在程序中可以通过变量名直接访问。
+ */
+
+/**
  * A bitmask of the actions above. Controls what is scheduled to be performed on scheduledWakeup.
  */
-RTC_DATA_ATTR uint8_t scheduledActions = 0;
+RTC_DATA_ATTR uint8_t scheduledActions = 0;  
 /**
  * The next scheduled wakeup time.
  */

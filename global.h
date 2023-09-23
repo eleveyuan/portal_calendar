@@ -17,4 +17,4 @@
 #define TZ_LOOKUP_TIMEOUT_MS                    TZ_LOOKUP_TIMEOUT_SECONDS * 1000
 #define NTP_TIMEOUT_MS                          NTP_TIMEOUT_SECONDS * 1000
 
-#endif // PORTALCALENDAR_GLOBAL_H
+#endif // PORTALCALENDAR_GLOBAL_H 

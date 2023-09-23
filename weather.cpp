@@ -4,7 +4,7 @@
 #include "global.h"
 #include "time_util.h"
 
-const WeatherEntry EMPTY_WEATHER_ENTRY = {
+const WeatherEntry EMPTY_WEATHER_ENTRY = {  // C99 标准引入的初始化方式
     .condition = WeatherCondition::UNKNOWN,
     .temp = INT16_MAX,
     .daylight = false,
